@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- REMIX ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
     <title>AMBRA Puglia - Home Page</title>
 </head>
 <body>
     
     <header>
-        <div class="flex justify-between items-center h-[5vh]">
+        <!-- Navbar -->
+        <div class="flex justify-between items-center h-[6vh] md:h-[8vh]">
             <img class="h-[100%] p-1" src="" alt="logo">
-            <nav>
-                <ul class="flex gap-3 text-lg p-3">
+            <nav class="absolute md:static bg-white md:bg-inherit left-0 top-[-100%] w-full md:w-auto">
+                <ul class="flex md:flex-row flex-col justify-center gap-3 p-3">
                     <li>Home</li>
                     <li>Chi siamo</li>
                     <li>Cosa proponiamo</li>
                     <li>Insegnanti della Puglia</li>
                     <li>I fondatori</li>
-                    <li>5x1000</li>
                 </ul>
             </nav>
+            <div class="w-[100px] flex items-center justify-around">
+                <button class="bg-gradient-to-bl text-xs from-slate-400 to-slate-500 rounded-3xl p-1 text-white">5x1000</button>
+                <i onclick="handleMenu()" class="text-xl ri-menu-line md:hidden"></i> <!-- ri-close-line -->
+            </div>
         </div>
             <div class="h-[60vh] w-[100vw] bg-top bg-cover bg-no-repeat" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1561525140-c2a4cc68e4bd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
                 <h1 class="text-right pr-10 pt-[28vh] text-3xl font-bold text-white drop-shadow-2xl">Pagina ufficiale metodo Billings Puglia</h1>
@@ -116,5 +122,6 @@
     <footer></footer>
 </body>
 <script src="script.js"></script>
+<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
 </html>

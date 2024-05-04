@@ -71,3 +71,10 @@ copyBtn.addEventListener('click', ()=> {
         copyBtn.textContent = 'Copia'
     }, 3000);
 })
+
+/* Gestione chiusura menù */
+
+function handleMenu(){
+    const menuBtn = document.querySelector('.ri-menu-line')
+    console.log(menuBtn.classList.value)
+}
