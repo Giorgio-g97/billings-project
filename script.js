@@ -75,6 +75,7 @@ copyBtn.addEventListener('click', ()=> {
 /* Gestione chiusura menù */
 
 const navLinks = document.querySelector('.navlinks')
+const menuBtn = document.getElementById('menuBtn')
 
 function handleMenu(e){
 
@@ -82,5 +83,13 @@ function handleMenu(e){
 
     console.log(e.classList.value)
 
-    navLinks.classList.toggle('top-11')
+    navLinks.classList.toggle('left-[0%]')
+}
+
+function linkClicked(){
+    
+    navLinks.classList.remove('left-[0%]')
+
+    menuBtn.classList.value= "text-xl ri-menu-line md:hidden"
+    console.log(menuBtn.classList.value)
 }
