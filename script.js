@@ -16,14 +16,6 @@ let insegnanti = [
         email: "cristinapaveri@alice.it",
     },
     {
-        nome: "Franca",
-        cognome: "Zavatta",
-        img: "",
-        citta: "Ascoli Satriano(FG)",
-        telefono: "389 1815693",
-        email: "francesca.zavatta@virgilio.it",
-    },
-    {
         nome: "Mariacarla",
         cognome: "Cosenza",
         img: "",
@@ -38,14 +30,6 @@ let insegnanti = [
         citta: "Foggia",
         telefono: "347 2450015",
         email: "francesca.iuspa@tiscali.it",
-    },
-    {
-        nome: "Lucia",
-        cognome: "Miglionico",
-        img: "",
-        citta: "San Giovanni Rotondo (FG)",
-        telefono: "339 8720137",
-        email: "lucia.miglionico82@gmail.com",
     },
     {
         nome: "Maria Gabriella",
