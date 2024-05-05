@@ -108,4 +108,4 @@ function linkClicked(){
 // Animazioni GSAP
 
 gsap.to("#chiSiamo", { opacity: 1, top: 0, duration: 1, delay: 0.5, ease: "power3.out" }) //Chi siamo
-gsap.to("#textHero", { opacity: 1, duration: 0.5, bottom: 4, ease: "power1.out" }) // Hero Text
+gsap.to("#textHero", { opacity: 1, duration: 0.7, bottom: 4, ease: "power1.out" }) // Hero Text
