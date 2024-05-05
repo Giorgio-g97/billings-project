@@ -48,3 +48,7 @@ body, html {
   #root, #__next {
     isolation: isolate;
   }
+
+  .chi-siamo {
+    opacity: 0;
+  }

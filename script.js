@@ -112,3 +112,7 @@ function linkClicked(){
     menuBtn.classList.value= "text-xl ri-menu-line md:hidden"
     console.log(menuBtn.classList.value)
 }
+
+// Animazioni GSAP
+
+gsap.to(".chi-siamo", { opacity: 100, duration: 2 })
