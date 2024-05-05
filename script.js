@@ -50,14 +50,14 @@ insegnanti.forEach(el => {
         el.img = "https://t3.ftcdn.net/jpg/03/53/11/00/360_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg"
     }
     let insegnHTML = `
-    <div class="bg-slate-200 w-[200px] mx-auto p-5 rounded-xl my-5 flex flex-col items-center gap-3">
+    <div class="bg-slate-200 w-[215px] mx-auto p-5 rounded-xl my-5 flex flex-col items-center gap-1">
         <img class="rounded-full" src=${el.img} />
         <div class="flex gap-1" >
         <h2 class="font-bold">${el.nome}</h2>
         <h2 class="">${el.cognome}</h2>
         </div>
         <h2>${el.citta}</h2>
-        <h2>${el.telefono}</h2>
+        <p class="w-[100%] text-xs text-center">${el.email}</p>
     </div>
         `
     elencoIns.innerHTML += insegnHTML
@@ -86,7 +86,7 @@ function handleMenu(e){
 
     if(e.classList.value === "text-xl ri-menu-line md:hidden"){
         e.classList.value = "text-xl ri-close-line md:hidden"
-        gsap.from("ul li a",{ left:-10 , opacity:0, duration: 0.3, stagger: 0.1})
+        gsap.from("ul li a",{ left:-10 , opacity:0, duration: 0.4, stagger: 0.2})
     }else{
         e.classList.value = "text-xl ri-menu-line md:hidden"
     }
