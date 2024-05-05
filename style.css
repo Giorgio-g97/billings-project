@@ -49,6 +49,20 @@ body, html {
     isolation: isolate;
   }
 
-  .chi-siamo {
+  #chiSiamo {
     opacity: 0;
+    position: relative;
+    top: -1%;
+  }
+
+  #textHero {
+    position: relative;
+    opacity: 0;
+    bottom: 0;
+  }
+
+  ul li a {
+    position: relative;
+    left: 0;
+    opacity: 1;
   }

@@ -82,7 +82,15 @@ const menuBtn = document.getElementById('menuBtn')
 
 function handleMenu(e){
 
-    e.classList.value = e.classList.value === "text-xl ri-menu-line md:hidden" ? "text-xl ri-close-line md:hidden" : "text-xl ri-menu-line md:hidden"
+    // e.classList.value = e.classList.value === "text-xl ri-menu-line md:hidden" ? "text-xl ri-close-line md:hidden" : "text-xl ri-menu-line md:hidden"
+
+    if(e.classList.value === "text-xl ri-menu-line md:hidden"){
+        e.classList.value = "text-xl ri-close-line md:hidden"
+        gsap.from("ul li a",{ left:-10 , opacity:0, duration: 0.3, stagger: 0.1})
+    }else{
+        e.classList.value = "text-xl ri-menu-line md:hidden"
+    }
+
 
     console.log(e.classList.value)
 
@@ -99,4 +107,5 @@ function linkClicked(){
 
 // Animazioni GSAP
 
-gsap.to(".chi-siamo", { opacity: 100, duration: 2 })
+gsap.to("#chiSiamo", { opacity: 1, top: 0, duration: 1, delay: 0.5, ease: "power3.out" }) //Chi siamo
+gsap.to("#textHero", { opacity: 1, duration: 0.5, bottom: 4, ease: "power1.out" }) // Hero Text
