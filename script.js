@@ -1,44 +1,5 @@
 let insegnanti = [
-    // {
-    //     nome: "Roberta",
-    //     cognome: "Rosiello",
-    //     img: "https://amamb.it/wp-content/uploads/2021/03/Roberta-Rosiello-Amamb.png",
-    //     citta: "Foggia",
-    //     telefono: "348 9168294",
-    //     email: "robertarosiellocopy@gmail.com",
-    // },
-    // {
-    //     nome: "Cristina",
-    //     cognome: "Paveri",
-    //     img: "",
-    //     citta: "Galatone (LE)",
-    //     telefono: "380 1572879",
-    //     email: "cristinapaveri@alice.it",
-    // },
-    // {
-    //     nome: "Mariacarla",
-    //     cognome: "Cosenza",
-    //     img: "",
-    //     citta: "Foggia",
-    //     telefono: "349 5927878",
-    //     email: "mariacarlacosenza@tiscali.it",
-    // },
-    // {
-    //     nome: "Francesca",
-    //     cognome: "Iuspa",
-    //     img: "",
-    //     citta: "Foggia",
-    //     telefono: "347 2450015",
-    //     email: "francesca.iuspa@tiscali.it",
-    // },
-    // {
-    //     nome: "Maria Gabriella",
-    //     cognome: "Turrin",
-    //     img: "",
-    //     citta: "Deliceto (FG)",
-    //     telefono: "3479851524",
-    //     email: "m.gabriella@yahoo.it",
-    // },
+    
 ]
 
 const elencoIns = document.querySelector('.elenco-insegnanti')
